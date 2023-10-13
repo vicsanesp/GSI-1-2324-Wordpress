@@ -1,0 +1,6 @@
+2023-10-12T22:38:50+00:00 CRITICAL Uncaught WCPay\Exceptions\API_Exception: Error: Accounts do not currently support `card_payments` without `transfers`. Please visit https://stripe.com/docs/connect/account-capabilities#card-payments for more details. in /var/www/vhosts/40751662.servicio-online.net/httpdocs/cafeconnect/wp-content/plugins/woocommerce-payments/includes/wc-payment-api/class-wc-payments-api-client.php:1944
+Stack trace:
+#0 /var/www/vhosts/40751662.servicio-online.net/httpdocs/cafeconnect/wp-content/plugins/woocommerce-payments/includes/wc-payment-api/class-wc-payments-api-client.php(1770): WC_Payments_API_Client->check_response_for_errors(Array)
+#1 /var/www/vhosts/40751662.servicio-online.net/httpdocs/cafeconnect/wp-content/plugins/woocommerce-payments/includes/wc-payment-api/class-wc-payments-api-client.php(841): WC_Payments_API_Client->request(Array, 'accounts/capabi...', 'POST', true, true)
+#2 /var/www/vhosts/40751662.servicio-online.net/httpdocs/cafeconnect/wp-content/plugins/woocommerce-payments/includes/admin/class-wc-rest-pa en /var/www/vhosts/40751662.servicio-online.net/httpdocs/cafeconnect/wp-content/plugins/woocommerce-payments/includes/wc-payment-api/class-wc-payments-api-client.php en la línea 1944
+
