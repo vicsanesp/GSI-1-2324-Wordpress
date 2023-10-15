@@ -1,0 +1,18 @@
+2023-10-15T02:53:05+00:00 CRITICAL Uncaught Error: Call to a member function enqueue_styles() on null in /var/www/vhosts/40751662.servicio-online.net/httpdocs/cafeconnect/wp-content/plugins/header-footer-elementor/inc/class-header-footer-elementor.php:385
+Stack trace:
+#0 /var/www/vhosts/40751662.servicio-online.net/httpdocs/cafeconnect/wp-includes/class-wp-hook.php(310): Header_Footer_Elementor->enqueue_scripts('')
+#1 /var/www/vhosts/40751662.servicio-online.net/httpdocs/cafeconnect/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/vhosts/40751662.servicio-online.net/httpdocs/cafeconnect/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/vhosts/40751662.servicio-online.net/httpdocs/cafeconnect/wp-includes/script-loader.php(2225): do_action('wp_enqueue_scri...')
+#4 /var/www/vhosts/40751662.servicio-online.net/httpdocs/cafeconnect/wp-includes/class-wp-customize-manager.php(457): wp_enqueue_scripts()
+#5 /var/www/vhosts/40751662.servicio-online.net/httpdocs/cafeconnect/wp-includes/class-wp-customiz en /var/www/vhosts/40751662.servicio-online.net/httpdocs/cafeconnect/wp-content/plugins/header-footer-elementor/inc/class-header-footer-elementor.php en la línea 385
+
+2023-10-15T09:18:07+00:00 CRITICAL Uncaught Error: Call to a member function enqueue_styles() on null in /var/www/vhosts/40751662.servicio-online.net/httpdocs/cafeconnect/wp-content/plugins/header-footer-elementor/inc/class-header-footer-elementor.php:385
+Stack trace:
+#0 /var/www/vhosts/40751662.servicio-online.net/httpdocs/cafeconnect/wp-includes/class-wp-hook.php(310): Header_Footer_Elementor->enqueue_scripts('')
+#1 /var/www/vhosts/40751662.servicio-online.net/httpdocs/cafeconnect/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/vhosts/40751662.servicio-online.net/httpdocs/cafeconnect/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/vhosts/40751662.servicio-online.net/httpdocs/cafeconnect/wp-includes/script-loader.php(2225): do_action('wp_enqueue_scri...')
+#4 /var/www/vhosts/40751662.servicio-online.net/httpdocs/cafeconnect/wp-includes/class-wp-customize-manager.php(457): wp_enqueue_scripts()
+#5 /var/www/vhosts/40751662.servicio-online.net/httpdocs/cafeconnect/wp-includes/class-wp-customiz en /var/www/vhosts/40751662.servicio-online.net/httpdocs/cafeconnect/wp-content/plugins/header-footer-elementor/inc/class-header-footer-elementor.php en la línea 385
+
